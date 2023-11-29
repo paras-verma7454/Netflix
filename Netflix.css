@@ -63,6 +63,7 @@ nav{
     position: relative;
     z-index: 1;
     padding: 6px 15px;
+   
     font-weight: 600;
 }
 .signin{
@@ -216,14 +217,59 @@ input{
 
 .con-img2 {
 
-    margin-top: 100px;
+    margin-top: 90px;
     margin-left:190px;
+    position: relative;
   
 
 }
 .img2{
     /* height: 400px ; */
     width: 35vw;
+}
+.box2{
+    width:  300px;
+    height: 90px;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid rgb(85 85 85);
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    top: 0;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 290px;
+    
+    
+}
+.box2 p{
+    margin-left: 40px;
+    /* text-align: center; */
+    padding: 40px  ;
+    /* justify-items: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.box2 p span{
+    color: blue;
+    font-size: 12px;
+}
+.box-img{
+    height: 70px;
+    position: absolute;
+    z-index: 1;
+    /* margin:  20px; */
+    padding: 10px 10px;
+    
+    top: 0;
+}
+
+.bg{
+    height: 60px;
+    background: url(Assets/download-icon.gif);
+    background-position: center center;
+    z-index: 1;
 }
 .con-text2{
     margin-top: 200px;
