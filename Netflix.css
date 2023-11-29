@@ -250,6 +250,7 @@ input{
     /* justify-items: center; */
     /* justify-content: center; */
     /* align-items: center; */
+    font-size: 15px;
 }
 .box2 p span{
     color: blue;
@@ -266,11 +267,19 @@ input{
 }
 
 .bg{
-    height: 60px;
-    background: url(Assets/download-icon.gif);
-    background-position: center center;
+    display: flex;
+    height: 50px;
+    margin-left: 235px;
+    /* background-color: aquamarine; */
+    /* background: url(Assets/download-icon.gif); */
+    /* background-position: center center; */
+    position: absolute;
     z-index: 1;
 }
+/* .box-img{
+    
+
+} */
 .con-text2{
     margin-top: 200px;
     margin-left:50px;
