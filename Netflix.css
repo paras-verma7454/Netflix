@@ -74,7 +74,7 @@ nav{
     height: 34px;
     border: 2px solid rgb(85 85 85);
     color: white;
-    background-color: transparent;
+    background-color: rgba(0,0,0,.6);
     position: relative;
     z-index: 1;
     margin: 10px ;
